@@ -1,7 +1,7 @@
 const API_URL = import.meta.env.VITE_API_URL;
 
 export async function generateBlog({ topic, tone, length }) {
-  const res = await fetch(`${API_URL}/generate/`, {
+  const res = await fetch(`${API_URL}/api/generate/`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ topic, tone, length }),
