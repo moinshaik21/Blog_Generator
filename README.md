@@ -1,6 +1,8 @@
 BlogForge — AI Blog Generator
 A full-stack AI-powered blog writing application that generates blog posts from a topic using Google's open API. Users can select a writing tone and target length, preview generated content as formatted Markdown, copy the raw Markdown with one click, and switch between light and dark themes.
 Architecture
+
+```text
 ┌────────────────────────────────┐
 │        React + Vite UI         │
 │      frontend/frontend/        │
@@ -29,6 +31,8 @@ Architecture
 │              ▼                 │
 │      Generated Blog Markdown   │
 └────────────────────────────────┘
+```
+
 Request flow
 1. The user enters a blog topic and selects a tone and length in the React interface.
 2. The frontend sends a JSON request to the Django REST API.
