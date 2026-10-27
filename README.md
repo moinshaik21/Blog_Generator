@@ -21,7 +21,7 @@ Architecture
 │  Blog Generation Endpoint      │
 │  Error Handling                │
 └───────────────┬────────────────┘
-                │ Google Gen AI SDK
+                │ 
                 ▼
 ┌────────────────────────────────┐
 │          Open API              │
