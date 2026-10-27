@@ -134,6 +134,9 @@ MAILERS = {
 }
 
 CORS_ALLOWED_ORIGINS = [
+    "blog-generator-whbz.onrender.com",
+    "localhost",
+    "127.0.0.1",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
