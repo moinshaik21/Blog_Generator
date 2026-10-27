@@ -60,7 +60,7 @@ Database	SQLite (Django default; generation flow may not require persistent stor
 Development Server	Vite, Django development server
 Version Control	Git, GitHub
 
-
+```text
 Project Structure
 Ai_Blog_Generator/
 ├── aiblog/                         # Django backend
@@ -83,6 +83,7 @@ Ai_Blog_Generator/
         ├── package.json
         ├── vite.config.js
         └── .env                    # Frontend environment variables (do not commit)
+  ```
 Note: Update this tree if your actual repository contains additional files or uses different paths.
 Prerequisites
 Before running the application, make sure you have:
