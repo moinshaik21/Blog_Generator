@@ -134,6 +134,7 @@ MAILERS = {
 }
 
 CORS_ALLOWED_ORIGINS = [
+    "https://aiblogforge.netlify.app/",
     "blog-generator-whbz.onrender.com",
     "localhost",
     "127.0.0.1",
